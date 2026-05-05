@@ -1,8 +1,8 @@
 ++++
 <p align="center"><a href="https://delta.rocks/jrsonnet"><img alt="jrsonnet logo" src="https://delta.rocks/og/page.svg?title=jrsonnet&sig=cecb5a7de6500c39b0d284e4d14a3bef6d083ce19b8f6e77c82d70c57bf6960e&brand=jrsonnet&subtitle=fast+jsonnet+interpreter" height="300"></img></a></p>
 <p align="center">
-  <a href="https://delta.rocks/donate"><img alt="opencollective" src="https://delta.rocks/badge/backers.svg"></img></a>
-  <a href="./LICENSE"><img alt="license" src="https://delta.rocks/badge/License · MIT / Apache 2.svg"></img></a>
+  <a href="https://delta.rocks/donate"><img alt="donate" src="https://delta.rocks/badge/backers.svg"></img></a>
+  <a href="./LICENSE"><img alt="license" src="https://delta.rocks/badge/License · MIT %2f Apache 2.svg"></img></a>
 </p>
 ++++
 
