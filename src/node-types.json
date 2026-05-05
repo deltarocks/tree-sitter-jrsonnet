@@ -1,0 +1,2737 @@
+[
+  {
+    "type": "arg",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "array",
+          "named": true
+        },
+        {
+          "type": "assert_expr",
+          "named": true
+        },
+        {
+          "type": "binary_expr",
+          "named": true
+        },
+        {
+          "type": "dollar",
+          "named": true
+        },
+        {
+          "type": "error_expr",
+          "named": true
+        },
+        {
+          "type": "function_expr",
+          "named": true
+        },
+        {
+          "type": "ident",
+          "named": true
+        },
+        {
+          "type": "ident_ref",
+          "named": true
+        },
+        {
+          "type": "if_then_else",
+          "named": true
+        },
+        {
+          "type": "import_expr",
+          "named": true
+        },
+        {
+          "type": "literal",
+          "named": true
+        },
+        {
+          "type": "local_expr",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "object",
+          "named": true
+        },
+        {
+          "type": "parened",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "string_block",
+          "named": true
+        },
+        {
+          "type": "suffix_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_index",
+          "named": true
+        },
+        {
+          "type": "suffix_index_expr",
+          "named": true
+        },
+        {
+          "type": "suffix_object_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_slice",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "array",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "array",
+          "named": true
+        },
+        {
+          "type": "assert_expr",
+          "named": true
+        },
+        {
+          "type": "binary_expr",
+          "named": true
+        },
+        {
+          "type": "dollar",
+          "named": true
+        },
+        {
+          "type": "error_expr",
+          "named": true
+        },
+        {
+          "type": "for_spec",
+          "named": true
+        },
+        {
+          "type": "function_expr",
+          "named": true
+        },
+        {
+          "type": "ident_ref",
+          "named": true
+        },
+        {
+          "type": "if_spec",
+          "named": true
+        },
+        {
+          "type": "if_then_else",
+          "named": true
+        },
+        {
+          "type": "import_expr",
+          "named": true
+        },
+        {
+          "type": "literal",
+          "named": true
+        },
+        {
+          "type": "local_expr",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "object",
+          "named": true
+        },
+        {
+          "type": "parened",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "string_block",
+          "named": true
+        },
+        {
+          "type": "suffix_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_index",
+          "named": true
+        },
+        {
+          "type": "suffix_index_expr",
+          "named": true
+        },
+        {
+          "type": "suffix_object_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_slice",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "assert_expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "array",
+          "named": true
+        },
+        {
+          "type": "assert_expr",
+          "named": true
+        },
+        {
+          "type": "assertion",
+          "named": true
+        },
+        {
+          "type": "binary_expr",
+          "named": true
+        },
+        {
+          "type": "dollar",
+          "named": true
+        },
+        {
+          "type": "error_expr",
+          "named": true
+        },
+        {
+          "type": "function_expr",
+          "named": true
+        },
+        {
+          "type": "ident_ref",
+          "named": true
+        },
+        {
+          "type": "if_then_else",
+          "named": true
+        },
+        {
+          "type": "import_expr",
+          "named": true
+        },
+        {
+          "type": "literal",
+          "named": true
+        },
+        {
+          "type": "local_expr",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "object",
+          "named": true
+        },
+        {
+          "type": "parened",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "string_block",
+          "named": true
+        },
+        {
+          "type": "suffix_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_index",
+          "named": true
+        },
+        {
+          "type": "suffix_index_expr",
+          "named": true
+        },
+        {
+          "type": "suffix_object_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_slice",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "assertion",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "array",
+          "named": true
+        },
+        {
+          "type": "assert_expr",
+          "named": true
+        },
+        {
+          "type": "binary_expr",
+          "named": true
+        },
+        {
+          "type": "dollar",
+          "named": true
+        },
+        {
+          "type": "error_expr",
+          "named": true
+        },
+        {
+          "type": "function_expr",
+          "named": true
+        },
+        {
+          "type": "ident_ref",
+          "named": true
+        },
+        {
+          "type": "if_then_else",
+          "named": true
+        },
+        {
+          "type": "import_expr",
+          "named": true
+        },
+        {
+          "type": "literal",
+          "named": true
+        },
+        {
+          "type": "local_expr",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "object",
+          "named": true
+        },
+        {
+          "type": "parened",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "string_block",
+          "named": true
+        },
+        {
+          "type": "suffix_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_index",
+          "named": true
+        },
+        {
+          "type": "suffix_index_expr",
+          "named": true
+        },
+        {
+          "type": "suffix_object_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_slice",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "binary_expr",
+    "named": true,
+    "fields": {
+      "lhs": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "!",
+            "named": false
+          },
+          {
+            "type": "+",
+            "named": false
+          },
+          {
+            "type": "-",
+            "named": false
+          },
+          {
+            "type": "array",
+            "named": true
+          },
+          {
+            "type": "assert_expr",
+            "named": true
+          },
+          {
+            "type": "binary_expr",
+            "named": true
+          },
+          {
+            "type": "dollar",
+            "named": true
+          },
+          {
+            "type": "error_expr",
+            "named": true
+          },
+          {
+            "type": "function_expr",
+            "named": true
+          },
+          {
+            "type": "ident_ref",
+            "named": true
+          },
+          {
+            "type": "if_then_else",
+            "named": true
+          },
+          {
+            "type": "import_expr",
+            "named": true
+          },
+          {
+            "type": "literal",
+            "named": true
+          },
+          {
+            "type": "local_expr",
+            "named": true
+          },
+          {
+            "type": "number",
+            "named": true
+          },
+          {
+            "type": "object",
+            "named": true
+          },
+          {
+            "type": "parened",
+            "named": true
+          },
+          {
+            "type": "string",
+            "named": true
+          },
+          {
+            "type": "string_block",
+            "named": true
+          },
+          {
+            "type": "suffix_apply",
+            "named": true
+          },
+          {
+            "type": "suffix_index",
+            "named": true
+          },
+          {
+            "type": "suffix_index_expr",
+            "named": true
+          },
+          {
+            "type": "suffix_object_apply",
+            "named": true
+          },
+          {
+            "type": "suffix_slice",
+            "named": true
+          },
+          {
+            "type": "verbatim_string",
+            "named": true
+          },
+          {
+            "type": "~",
+            "named": false
+          }
+        ]
+      },
+      "op": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "!=",
+            "named": false
+          },
+          {
+            "type": "%",
+            "named": false
+          },
+          {
+            "type": "&",
+            "named": false
+          },
+          {
+            "type": "&&",
+            "named": false
+          },
+          {
+            "type": "*",
+            "named": false
+          },
+          {
+            "type": "+",
+            "named": false
+          },
+          {
+            "type": "-",
+            "named": false
+          },
+          {
+            "type": "/",
+            "named": false
+          },
+          {
+            "type": "<",
+            "named": false
+          },
+          {
+            "type": "<<",
+            "named": false
+          },
+          {
+            "type": "<=",
+            "named": false
+          },
+          {
+            "type": "==",
+            "named": false
+          },
+          {
+            "type": ">",
+            "named": false
+          },
+          {
+            "type": ">=",
+            "named": false
+          },
+          {
+            "type": ">>",
+            "named": false
+          },
+          {
+            "type": "??",
+            "named": false
+          },
+          {
+            "type": "^",
+            "named": false
+          },
+          {
+            "type": "in",
+            "named": false
+          },
+          {
+            "type": "|",
+            "named": false
+          },
+          {
+            "type": "||",
+            "named": false
+          }
+        ]
+      },
+      "rhs": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "!",
+            "named": false
+          },
+          {
+            "type": "+",
+            "named": false
+          },
+          {
+            "type": "-",
+            "named": false
+          },
+          {
+            "type": "array",
+            "named": true
+          },
+          {
+            "type": "assert_expr",
+            "named": true
+          },
+          {
+            "type": "binary_expr",
+            "named": true
+          },
+          {
+            "type": "dollar",
+            "named": true
+          },
+          {
+            "type": "error_expr",
+            "named": true
+          },
+          {
+            "type": "function_expr",
+            "named": true
+          },
+          {
+            "type": "ident_ref",
+            "named": true
+          },
+          {
+            "type": "if_then_else",
+            "named": true
+          },
+          {
+            "type": "import_expr",
+            "named": true
+          },
+          {
+            "type": "literal",
+            "named": true
+          },
+          {
+            "type": "local_expr",
+            "named": true
+          },
+          {
+            "type": "number",
+            "named": true
+          },
+          {
+            "type": "object",
+            "named": true
+          },
+          {
+            "type": "parened",
+            "named": true
+          },
+          {
+            "type": "string",
+            "named": true
+          },
+          {
+            "type": "string_block",
+            "named": true
+          },
+          {
+            "type": "suffix_apply",
+            "named": true
+          },
+          {
+            "type": "suffix_index",
+            "named": true
+          },
+          {
+            "type": "suffix_index_expr",
+            "named": true
+          },
+          {
+            "type": "suffix_object_apply",
+            "named": true
+          },
+          {
+            "type": "suffix_slice",
+            "named": true
+          },
+          {
+            "type": "verbatim_string",
+            "named": true
+          },
+          {
+            "type": "~",
+            "named": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "bind",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "array",
+          "named": true
+        },
+        {
+          "type": "assert_expr",
+          "named": true
+        },
+        {
+          "type": "binary_expr",
+          "named": true
+        },
+        {
+          "type": "destruct_field",
+          "named": true
+        },
+        {
+          "type": "destruct_rest",
+          "named": true
+        },
+        {
+          "type": "dollar",
+          "named": true
+        },
+        {
+          "type": "error_expr",
+          "named": true
+        },
+        {
+          "type": "function_expr",
+          "named": true
+        },
+        {
+          "type": "ident",
+          "named": true
+        },
+        {
+          "type": "ident_ref",
+          "named": true
+        },
+        {
+          "type": "if_then_else",
+          "named": true
+        },
+        {
+          "type": "import_expr",
+          "named": true
+        },
+        {
+          "type": "literal",
+          "named": true
+        },
+        {
+          "type": "local_expr",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "object",
+          "named": true
+        },
+        {
+          "type": "params",
+          "named": true
+        },
+        {
+          "type": "parened",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "string_block",
+          "named": true
+        },
+        {
+          "type": "suffix_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_index",
+          "named": true
+        },
+        {
+          "type": "suffix_index_expr",
+          "named": true
+        },
+        {
+          "type": "suffix_object_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_slice",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "destruct_field",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "array",
+          "named": true
+        },
+        {
+          "type": "assert_expr",
+          "named": true
+        },
+        {
+          "type": "binary_expr",
+          "named": true
+        },
+        {
+          "type": "destruct_field",
+          "named": true
+        },
+        {
+          "type": "destruct_rest",
+          "named": true
+        },
+        {
+          "type": "dollar",
+          "named": true
+        },
+        {
+          "type": "error_expr",
+          "named": true
+        },
+        {
+          "type": "function_expr",
+          "named": true
+        },
+        {
+          "type": "ident",
+          "named": true
+        },
+        {
+          "type": "ident_ref",
+          "named": true
+        },
+        {
+          "type": "if_then_else",
+          "named": true
+        },
+        {
+          "type": "import_expr",
+          "named": true
+        },
+        {
+          "type": "literal",
+          "named": true
+        },
+        {
+          "type": "local_expr",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "object",
+          "named": true
+        },
+        {
+          "type": "parened",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "string_block",
+          "named": true
+        },
+        {
+          "type": "suffix_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_index",
+          "named": true
+        },
+        {
+          "type": "suffix_index_expr",
+          "named": true
+        },
+        {
+          "type": "suffix_object_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_slice",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "destruct_rest",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "ident",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "error_expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "array",
+          "named": true
+        },
+        {
+          "type": "assert_expr",
+          "named": true
+        },
+        {
+          "type": "binary_expr",
+          "named": true
+        },
+        {
+          "type": "dollar",
+          "named": true
+        },
+        {
+          "type": "error_expr",
+          "named": true
+        },
+        {
+          "type": "function_expr",
+          "named": true
+        },
+        {
+          "type": "ident_ref",
+          "named": true
+        },
+        {
+          "type": "if_then_else",
+          "named": true
+        },
+        {
+          "type": "import_expr",
+          "named": true
+        },
+        {
+          "type": "literal",
+          "named": true
+        },
+        {
+          "type": "local_expr",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "object",
+          "named": true
+        },
+        {
+          "type": "parened",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "string_block",
+          "named": true
+        },
+        {
+          "type": "suffix_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_index",
+          "named": true
+        },
+        {
+          "type": "suffix_index_expr",
+          "named": true
+        },
+        {
+          "type": "suffix_object_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_slice",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "field",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "array",
+          "named": true
+        },
+        {
+          "type": "assert_expr",
+          "named": true
+        },
+        {
+          "type": "binary_expr",
+          "named": true
+        },
+        {
+          "type": "dollar",
+          "named": true
+        },
+        {
+          "type": "error_expr",
+          "named": true
+        },
+        {
+          "type": "field_name",
+          "named": true
+        },
+        {
+          "type": "function_expr",
+          "named": true
+        },
+        {
+          "type": "ident_ref",
+          "named": true
+        },
+        {
+          "type": "if_then_else",
+          "named": true
+        },
+        {
+          "type": "import_expr",
+          "named": true
+        },
+        {
+          "type": "literal",
+          "named": true
+        },
+        {
+          "type": "local_expr",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "object",
+          "named": true
+        },
+        {
+          "type": "params",
+          "named": true
+        },
+        {
+          "type": "parened",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "string_block",
+          "named": true
+        },
+        {
+          "type": "suffix_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_index",
+          "named": true
+        },
+        {
+          "type": "suffix_index_expr",
+          "named": true
+        },
+        {
+          "type": "suffix_object_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_slice",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
+          "named": true
+        },
+        {
+          "type": "visibility",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "field_name",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "array",
+          "named": true
+        },
+        {
+          "type": "assert_expr",
+          "named": true
+        },
+        {
+          "type": "binary_expr",
+          "named": true
+        },
+        {
+          "type": "dollar",
+          "named": true
+        },
+        {
+          "type": "error_expr",
+          "named": true
+        },
+        {
+          "type": "function_expr",
+          "named": true
+        },
+        {
+          "type": "ident",
+          "named": true
+        },
+        {
+          "type": "ident_ref",
+          "named": true
+        },
+        {
+          "type": "if_then_else",
+          "named": true
+        },
+        {
+          "type": "import_expr",
+          "named": true
+        },
+        {
+          "type": "literal",
+          "named": true
+        },
+        {
+          "type": "local_expr",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "object",
+          "named": true
+        },
+        {
+          "type": "parened",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "string_block",
+          "named": true
+        },
+        {
+          "type": "suffix_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_index",
+          "named": true
+        },
+        {
+          "type": "suffix_index_expr",
+          "named": true
+        },
+        {
+          "type": "suffix_object_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_slice",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "for_spec",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "array",
+          "named": true
+        },
+        {
+          "type": "assert_expr",
+          "named": true
+        },
+        {
+          "type": "binary_expr",
+          "named": true
+        },
+        {
+          "type": "destruct_field",
+          "named": true
+        },
+        {
+          "type": "destruct_rest",
+          "named": true
+        },
+        {
+          "type": "dollar",
+          "named": true
+        },
+        {
+          "type": "error_expr",
+          "named": true
+        },
+        {
+          "type": "function_expr",
+          "named": true
+        },
+        {
+          "type": "ident",
+          "named": true
+        },
+        {
+          "type": "ident_ref",
+          "named": true
+        },
+        {
+          "type": "if_then_else",
+          "named": true
+        },
+        {
+          "type": "import_expr",
+          "named": true
+        },
+        {
+          "type": "literal",
+          "named": true
+        },
+        {
+          "type": "local_expr",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "object",
+          "named": true
+        },
+        {
+          "type": "parened",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "string_block",
+          "named": true
+        },
+        {
+          "type": "suffix_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_index",
+          "named": true
+        },
+        {
+          "type": "suffix_index_expr",
+          "named": true
+        },
+        {
+          "type": "suffix_object_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_slice",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "function_expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "array",
+          "named": true
+        },
+        {
+          "type": "assert_expr",
+          "named": true
+        },
+        {
+          "type": "binary_expr",
+          "named": true
+        },
+        {
+          "type": "dollar",
+          "named": true
+        },
+        {
+          "type": "error_expr",
+          "named": true
+        },
+        {
+          "type": "function_expr",
+          "named": true
+        },
+        {
+          "type": "ident_ref",
+          "named": true
+        },
+        {
+          "type": "if_then_else",
+          "named": true
+        },
+        {
+          "type": "import_expr",
+          "named": true
+        },
+        {
+          "type": "literal",
+          "named": true
+        },
+        {
+          "type": "local_expr",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "object",
+          "named": true
+        },
+        {
+          "type": "params",
+          "named": true
+        },
+        {
+          "type": "parened",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "string_block",
+          "named": true
+        },
+        {
+          "type": "suffix_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_index",
+          "named": true
+        },
+        {
+          "type": "suffix_index_expr",
+          "named": true
+        },
+        {
+          "type": "suffix_object_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_slice",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "ident_ref",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "ident",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "if_spec",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "array",
+          "named": true
+        },
+        {
+          "type": "assert_expr",
+          "named": true
+        },
+        {
+          "type": "binary_expr",
+          "named": true
+        },
+        {
+          "type": "dollar",
+          "named": true
+        },
+        {
+          "type": "error_expr",
+          "named": true
+        },
+        {
+          "type": "function_expr",
+          "named": true
+        },
+        {
+          "type": "ident_ref",
+          "named": true
+        },
+        {
+          "type": "if_then_else",
+          "named": true
+        },
+        {
+          "type": "import_expr",
+          "named": true
+        },
+        {
+          "type": "literal",
+          "named": true
+        },
+        {
+          "type": "local_expr",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "object",
+          "named": true
+        },
+        {
+          "type": "parened",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "string_block",
+          "named": true
+        },
+        {
+          "type": "suffix_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_index",
+          "named": true
+        },
+        {
+          "type": "suffix_index_expr",
+          "named": true
+        },
+        {
+          "type": "suffix_object_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_slice",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "if_then_else",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "array",
+          "named": true
+        },
+        {
+          "type": "assert_expr",
+          "named": true
+        },
+        {
+          "type": "binary_expr",
+          "named": true
+        },
+        {
+          "type": "dollar",
+          "named": true
+        },
+        {
+          "type": "error_expr",
+          "named": true
+        },
+        {
+          "type": "function_expr",
+          "named": true
+        },
+        {
+          "type": "ident_ref",
+          "named": true
+        },
+        {
+          "type": "if_then_else",
+          "named": true
+        },
+        {
+          "type": "import_expr",
+          "named": true
+        },
+        {
+          "type": "literal",
+          "named": true
+        },
+        {
+          "type": "local_expr",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "object",
+          "named": true
+        },
+        {
+          "type": "parened",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "string_block",
+          "named": true
+        },
+        {
+          "type": "suffix_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_index",
+          "named": true
+        },
+        {
+          "type": "suffix_index_expr",
+          "named": true
+        },
+        {
+          "type": "suffix_object_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_slice",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "import_expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "string_block",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "literal",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "local_expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "array",
+          "named": true
+        },
+        {
+          "type": "assert_expr",
+          "named": true
+        },
+        {
+          "type": "binary_expr",
+          "named": true
+        },
+        {
+          "type": "bind",
+          "named": true
+        },
+        {
+          "type": "dollar",
+          "named": true
+        },
+        {
+          "type": "error_expr",
+          "named": true
+        },
+        {
+          "type": "function_expr",
+          "named": true
+        },
+        {
+          "type": "ident_ref",
+          "named": true
+        },
+        {
+          "type": "if_then_else",
+          "named": true
+        },
+        {
+          "type": "import_expr",
+          "named": true
+        },
+        {
+          "type": "literal",
+          "named": true
+        },
+        {
+          "type": "local_expr",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "object",
+          "named": true
+        },
+        {
+          "type": "parened",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "string_block",
+          "named": true
+        },
+        {
+          "type": "suffix_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_index",
+          "named": true
+        },
+        {
+          "type": "suffix_index_expr",
+          "named": true
+        },
+        {
+          "type": "suffix_object_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_slice",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "member",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "field",
+          "named": true
+        },
+        {
+          "type": "member_assert",
+          "named": true
+        },
+        {
+          "type": "member_local",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "member_assert",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "assertion",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "member_local",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "bind",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "object",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "for_spec",
+          "named": true
+        },
+        {
+          "type": "if_spec",
+          "named": true
+        },
+        {
+          "type": "member",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "param",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "array",
+          "named": true
+        },
+        {
+          "type": "assert_expr",
+          "named": true
+        },
+        {
+          "type": "binary_expr",
+          "named": true
+        },
+        {
+          "type": "destruct_field",
+          "named": true
+        },
+        {
+          "type": "destruct_rest",
+          "named": true
+        },
+        {
+          "type": "dollar",
+          "named": true
+        },
+        {
+          "type": "error_expr",
+          "named": true
+        },
+        {
+          "type": "function_expr",
+          "named": true
+        },
+        {
+          "type": "ident",
+          "named": true
+        },
+        {
+          "type": "ident_ref",
+          "named": true
+        },
+        {
+          "type": "if_then_else",
+          "named": true
+        },
+        {
+          "type": "import_expr",
+          "named": true
+        },
+        {
+          "type": "literal",
+          "named": true
+        },
+        {
+          "type": "local_expr",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "object",
+          "named": true
+        },
+        {
+          "type": "parened",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "string_block",
+          "named": true
+        },
+        {
+          "type": "suffix_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_index",
+          "named": true
+        },
+        {
+          "type": "suffix_index_expr",
+          "named": true
+        },
+        {
+          "type": "suffix_object_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_slice",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "params",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "param",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "parened",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "array",
+          "named": true
+        },
+        {
+          "type": "assert_expr",
+          "named": true
+        },
+        {
+          "type": "binary_expr",
+          "named": true
+        },
+        {
+          "type": "dollar",
+          "named": true
+        },
+        {
+          "type": "error_expr",
+          "named": true
+        },
+        {
+          "type": "function_expr",
+          "named": true
+        },
+        {
+          "type": "ident_ref",
+          "named": true
+        },
+        {
+          "type": "if_then_else",
+          "named": true
+        },
+        {
+          "type": "import_expr",
+          "named": true
+        },
+        {
+          "type": "literal",
+          "named": true
+        },
+        {
+          "type": "local_expr",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "object",
+          "named": true
+        },
+        {
+          "type": "parened",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "string_block",
+          "named": true
+        },
+        {
+          "type": "suffix_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_index",
+          "named": true
+        },
+        {
+          "type": "suffix_index_expr",
+          "named": true
+        },
+        {
+          "type": "suffix_object_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_slice",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "root": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "array",
+          "named": true
+        },
+        {
+          "type": "assert_expr",
+          "named": true
+        },
+        {
+          "type": "binary_expr",
+          "named": true
+        },
+        {
+          "type": "dollar",
+          "named": true
+        },
+        {
+          "type": "error_expr",
+          "named": true
+        },
+        {
+          "type": "function_expr",
+          "named": true
+        },
+        {
+          "type": "ident_ref",
+          "named": true
+        },
+        {
+          "type": "if_then_else",
+          "named": true
+        },
+        {
+          "type": "import_expr",
+          "named": true
+        },
+        {
+          "type": "literal",
+          "named": true
+        },
+        {
+          "type": "local_expr",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "object",
+          "named": true
+        },
+        {
+          "type": "parened",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "string_block",
+          "named": true
+        },
+        {
+          "type": "suffix_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_index",
+          "named": true
+        },
+        {
+          "type": "suffix_index_expr",
+          "named": true
+        },
+        {
+          "type": "suffix_object_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_slice",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "suffix_apply",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "arg",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "suffix_index",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "ident",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "suffix_index_expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "array",
+          "named": true
+        },
+        {
+          "type": "assert_expr",
+          "named": true
+        },
+        {
+          "type": "binary_expr",
+          "named": true
+        },
+        {
+          "type": "dollar",
+          "named": true
+        },
+        {
+          "type": "error_expr",
+          "named": true
+        },
+        {
+          "type": "function_expr",
+          "named": true
+        },
+        {
+          "type": "ident_ref",
+          "named": true
+        },
+        {
+          "type": "if_then_else",
+          "named": true
+        },
+        {
+          "type": "import_expr",
+          "named": true
+        },
+        {
+          "type": "literal",
+          "named": true
+        },
+        {
+          "type": "local_expr",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "object",
+          "named": true
+        },
+        {
+          "type": "parened",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "string_block",
+          "named": true
+        },
+        {
+          "type": "suffix_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_index",
+          "named": true
+        },
+        {
+          "type": "suffix_index_expr",
+          "named": true
+        },
+        {
+          "type": "suffix_object_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_slice",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "suffix_object_apply",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "object",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "suffix_slice",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "array",
+          "named": true
+        },
+        {
+          "type": "assert_expr",
+          "named": true
+        },
+        {
+          "type": "binary_expr",
+          "named": true
+        },
+        {
+          "type": "dollar",
+          "named": true
+        },
+        {
+          "type": "error_expr",
+          "named": true
+        },
+        {
+          "type": "function_expr",
+          "named": true
+        },
+        {
+          "type": "ident_ref",
+          "named": true
+        },
+        {
+          "type": "if_then_else",
+          "named": true
+        },
+        {
+          "type": "import_expr",
+          "named": true
+        },
+        {
+          "type": "literal",
+          "named": true
+        },
+        {
+          "type": "local_expr",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "object",
+          "named": true
+        },
+        {
+          "type": "parened",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "string_block",
+          "named": true
+        },
+        {
+          "type": "suffix_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_index",
+          "named": true
+        },
+        {
+          "type": "suffix_index_expr",
+          "named": true
+        },
+        {
+          "type": "suffix_object_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_slice",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "visibility",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "!",
+    "named": false
+  },
+  {
+    "type": "!=",
+    "named": false
+  },
+  {
+    "type": "%",
+    "named": false
+  },
+  {
+    "type": "&",
+    "named": false
+  },
+  {
+    "type": "&&",
+    "named": false
+  },
+  {
+    "type": "(",
+    "named": false
+  },
+  {
+    "type": ")",
+    "named": false
+  },
+  {
+    "type": "*",
+    "named": false
+  },
+  {
+    "type": "+",
+    "named": false
+  },
+  {
+    "type": ",",
+    "named": false
+  },
+  {
+    "type": "-",
+    "named": false
+  },
+  {
+    "type": ".",
+    "named": false
+  },
+  {
+    "type": "...",
+    "named": false
+  },
+  {
+    "type": "/",
+    "named": false
+  },
+  {
+    "type": ":",
+    "named": false
+  },
+  {
+    "type": "::",
+    "named": false
+  },
+  {
+    "type": ":::",
+    "named": false
+  },
+  {
+    "type": ";",
+    "named": false
+  },
+  {
+    "type": "<",
+    "named": false
+  },
+  {
+    "type": "<<",
+    "named": false
+  },
+  {
+    "type": "<=",
+    "named": false
+  },
+  {
+    "type": "=",
+    "named": false
+  },
+  {
+    "type": "==",
+    "named": false
+  },
+  {
+    "type": ">",
+    "named": false
+  },
+  {
+    "type": ">=",
+    "named": false
+  },
+  {
+    "type": ">>",
+    "named": false
+  },
+  {
+    "type": "?",
+    "named": false
+  },
+  {
+    "type": "??",
+    "named": false
+  },
+  {
+    "type": "[",
+    "named": false
+  },
+  {
+    "type": "]",
+    "named": false
+  },
+  {
+    "type": "^",
+    "named": false
+  },
+  {
+    "type": "assert",
+    "named": false
+  },
+  {
+    "type": "block_comment",
+    "named": true,
+    "extra": true
+  },
+  {
+    "type": "dollar",
+    "named": true
+  },
+  {
+    "type": "else",
+    "named": false
+  },
+  {
+    "type": "error",
+    "named": false
+  },
+  {
+    "type": "false",
+    "named": false
+  },
+  {
+    "type": "for",
+    "named": false
+  },
+  {
+    "type": "function",
+    "named": false
+  },
+  {
+    "type": "ident",
+    "named": true
+  },
+  {
+    "type": "if",
+    "named": false
+  },
+  {
+    "type": "import",
+    "named": false
+  },
+  {
+    "type": "importbin",
+    "named": false
+  },
+  {
+    "type": "importstr",
+    "named": false
+  },
+  {
+    "type": "in",
+    "named": false
+  },
+  {
+    "type": "line_comment",
+    "named": true,
+    "extra": true
+  },
+  {
+    "type": "local",
+    "named": false
+  },
+  {
+    "type": "null",
+    "named": false
+  },
+  {
+    "type": "number",
+    "named": true
+  },
+  {
+    "type": "self",
+    "named": false
+  },
+  {
+    "type": "string",
+    "named": true
+  },
+  {
+    "type": "string_block",
+    "named": true
+  },
+  {
+    "type": "super",
+    "named": false
+  },
+  {
+    "type": "tailstrict",
+    "named": false
+  },
+  {
+    "type": "then",
+    "named": false
+  },
+  {
+    "type": "true",
+    "named": false
+  },
+  {
+    "type": "verbatim_string",
+    "named": true
+  },
+  {
+    "type": "{",
+    "named": false
+  },
+  {
+    "type": "|",
+    "named": false
+  },
+  {
+    "type": "||",
+    "named": false
+  },
+  {
+    "type": "}",
+    "named": false
+  },
+  {
+    "type": "~",
+    "named": false
+  }
+]

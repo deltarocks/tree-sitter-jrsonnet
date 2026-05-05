@@ -1,0 +1,18 @@
+/.direnv
+/build
+/log.html
+/node_modules
+/result
+/result-*
+/target
+/test
+
+# Built shared libraries
+/*.so
+/*.wasm
+/*.dll
+/*.dylib
+*.o
+*.a
+
+/.direnv

@@ -1,0 +1,24 @@
+{
+  "name": "@jrsonnet/tree-sitter-jsonnet",
+  "version": "0.0.1",
+  "description": "jsonnet grammar for tree-sitter",
+  "main": "bindings/node",
+  "keywords": [
+    "parsing",
+    "incremental"
+  ],
+  "dependencies": {
+    "nan": "^2.12.1"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.25.6"
+  },
+  "scripts": {
+    "install": "deno install --allow-scripts=npm:tree-sitter-cli",
+    "ts": "deno run --allow-env --allow-run npm:tree-sitter-cli",
+    "generate": "deno task ts generate --js-runtime deno",
+    "build": "deno task generate && deno task ts build",
+    "playground": "deno task build --wasm && deno task ts playground",
+    "test": "deno task ts test"
+  }
+}

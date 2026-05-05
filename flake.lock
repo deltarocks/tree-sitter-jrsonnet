@@ -1,0 +1,81 @@
+{
+  "nodes": {
+    "flake-parts": {
+      "inputs": {
+        "nixpkgs-lib": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1777932387,
+        "owner": "hercules-ci",
+        "repo": "flake-parts",
+        "rev": "71a3a77326609675e9f8b51084cf23d5d1945899",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hercules-ci",
+        "repo": "flake-parts",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1777960583,
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "8bdc65bb884ebd664a0e5708bfcee54602af4775",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "release-25.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-parts": "flake-parts",
+        "nixpkgs": "nixpkgs",
+        "shelly": "shelly",
+        "treefmt-nix": "treefmt-nix"
+      }
+    },
+    "shelly": {
+      "locked": {
+        "lastModified": 1756323923,
+        "owner": "CertainLach",
+        "repo": "shelly",
+        "rev": "b5dd29a500db04f54a9f1c2bf81cdd84df8b0cd7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "CertainLach",
+        "repo": "shelly",
+        "type": "github"
+      }
+    },
+    "treefmt-nix": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1775636079,
+        "owner": "numtide",
+        "repo": "treefmt-nix",
+        "rev": "790751ff7fd3801feeaf96d7dc416a8d581265ba",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "treefmt-nix",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

@@ -1,0 +1,22 @@
+{
+  "grammars": [
+    {
+      "name": "jsonnet",
+      "camelcase": "Jsonnet",
+      "scope": "source.jsonnet",
+      "path": ".",
+      "file-types": [
+        "jsonnet",
+        "libsonnet"
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "0.0.1",
+    "license": "MIT",
+    "description": "jsonnet and jrsonnet grammar for tree-sitter",
+    "links": {
+      "repository": "https://github.com/deltarocks/tree-sitter-jrsonnet"
+    }
+  }
+}

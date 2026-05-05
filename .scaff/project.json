@@ -1,0 +1,8 @@
+{
+  "codeOwner": "Yaroslav Bolyukin <iam@lach.pw>",
+  "licenseSpdx": "MIT OR Apache-2.0",
+  "projectName": "tree-sitter-jrsonnet",
+  "haveCredentials": false,
+  "projectDescription": "Tree-sitter grammar for jsonnet and jrsonnet",
+  "firstRunCompleted": true
+}
