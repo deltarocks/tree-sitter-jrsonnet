@@ -18,5 +18,9 @@
     "links": {
       "repository": "https://github.com/deltarocks/tree-sitter-jrsonnet"
     }
+  },
+  "bindings": {
+    "c": true,
+    "rust": true
   }
 }
