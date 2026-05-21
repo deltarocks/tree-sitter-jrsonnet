@@ -131,6 +131,10 @@
           "named": true
         },
         {
+          "type": "for_obj_spec",
+          "named": true
+        },
+        {
           "type": "for_spec",
           "named": true
         },
@@ -1278,6 +1282,121 @@
     }
   },
   {
+    "type": "for_obj_spec",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "array",
+          "named": true
+        },
+        {
+          "type": "assert_expr",
+          "named": true
+        },
+        {
+          "type": "binary_expr",
+          "named": true
+        },
+        {
+          "type": "destruct_field",
+          "named": true
+        },
+        {
+          "type": "destruct_rest",
+          "named": true
+        },
+        {
+          "type": "dollar",
+          "named": true
+        },
+        {
+          "type": "error_expr",
+          "named": true
+        },
+        {
+          "type": "function_expr",
+          "named": true
+        },
+        {
+          "type": "ident",
+          "named": true
+        },
+        {
+          "type": "ident_ref",
+          "named": true
+        },
+        {
+          "type": "if_then_else",
+          "named": true
+        },
+        {
+          "type": "import_expr",
+          "named": true
+        },
+        {
+          "type": "literal",
+          "named": true
+        },
+        {
+          "type": "local_expr",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "object",
+          "named": true
+        },
+        {
+          "type": "parened",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "string_block",
+          "named": true
+        },
+        {
+          "type": "suffix_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_index",
+          "named": true
+        },
+        {
+          "type": "suffix_index_expr",
+          "named": true
+        },
+        {
+          "type": "suffix_object_apply",
+          "named": true
+        },
+        {
+          "type": "suffix_slice",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
+          "named": true
+        },
+        {
+          "type": "visibility",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
     "type": "for_spec",
     "named": true,
     "fields": {},
@@ -1896,6 +2015,10 @@
       "multiple": true,
       "required": false,
       "types": [
+        {
+          "type": "for_obj_spec",
+          "named": true
+        },
         {
           "type": "for_spec",
           "named": true

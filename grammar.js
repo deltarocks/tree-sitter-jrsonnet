@@ -39,6 +39,7 @@ export default grammar({
   conflicts: ($) => [
     [$.bind, $._destruct],
     [$.field, $.function_expr],
+    [$.for_obj_spec, $._destruct],
   ],
 
   rules: {
@@ -199,7 +200,14 @@ export default grammar({
       ),
     visibility: (_) => choice(":", "::", ":::"),
 
-    _compspec: ($) => choice($.for_spec, $.if_spec),
+    _compspec: ($) =>
+      choice(
+        prec.dynamic(2, $.for_obj_spec),
+        prec.dynamic(1, $.for_spec),
+        $.if_spec,
+      ),
+    for_obj_spec: ($) =>
+      seq("for", "[", $.ident, "]", $.visibility, $._destruct, "in", $._expr),
     for_spec: ($) => seq("for", $._destruct, "in", $._expr),
     if_spec: ($) => seq("if", $._expr),
 
