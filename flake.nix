@@ -43,7 +43,10 @@
             packages = with pkgs; [
               pkg-config
               deno
-              python3
+              (python3.withPackages (p: [
+                p.build
+                p.twine
+              ]))
               emscripten
               cargo
               rustc

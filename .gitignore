@@ -15,3 +15,7 @@
 *.a
 
 /.direnv
+
+# Packaging artifacts
+/dist
+*.egg-info
